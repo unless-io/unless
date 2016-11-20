@@ -1,0 +1,42 @@
+<div class="projects">
+  <div class="container">
+    <div class="row">
+      <% data.projects.each_with_index do |project, index| %>
+      <div class="col-lg-6 col-xs-12">
+        <% if index.odd? %>
+        <div class="right project-wrapper">
+          <% else %>
+          <div class="left project-wrapper">
+            <% end %>
+            <div class="project">
+              <div class="header">
+                <h2>
+                  <%= project.name %>
+                </h2>
+              </div>
+              <div class="image-set">
+                <%= image_tag project.image %>
+                <div class="background"></div>
+                <div class="extra-info">
+                  <p>
+                    <span class="paragraph-start">
+                      <% description_intro = project.description.split(" ") %>
+                      <%= description_intro.shift(3).join(" ") %>
+                    </span>
+                    <%= description_intro.first(25).join(" ") %>
+                    <span class="dots">
+                      ...
+                    </span>
+                  </p>
+                  <a href="#">
+                    <i class="fa fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
