@@ -1,0 +1,33 @@
+#about {
+  margin-top: 80px;
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  padding: 20px;
+  width: 100%;
+  background: $unless-blue;
+  text-align: center;
+  h2 {
+    color: white;
+    padding: 20px;
+  }
+  p {
+    padding: 20px;
+    color: white;
+    text-align: left;
+    line-height: 38px;
+  }
+  .subscribe {
+    padding: 20px;
+    label {
+      font-family: Arvo;
+      color: white;
+    }
+    input {
+      color: $unless-black;
+      padding: 5px;
+      border: none;
+    }
+  }
+}

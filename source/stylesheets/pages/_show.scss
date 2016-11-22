@@ -1,0 +1,14 @@
+.project-content {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  h2 {
+    text-align: center;
+    border-bottom: 2px solid $unless-red;
+    padding: 20px;
+  }
+  p {
+    width: 700px;
+    margin: 0 auto;
+  }
+}

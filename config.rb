@@ -13,6 +13,10 @@ activate :autoprefixer
 ###
 # Page options, layouts, aliases and proxies
 ###
+#
+data.projects.each do |project|
+  proxy "/projects/#{project.url}.html", "/projects/show.html", locals: { project: project }
+end
 
 # Per-page layout changes:
 #
