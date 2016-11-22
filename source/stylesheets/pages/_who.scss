@@ -1,0 +1,54 @@
+#who {
+  .profile-container {
+    margin: 20px 0;
+    box-shadow: 3px 3px 6px rgba(1,1,1,0.3);
+  }
+  padding: 20px;
+  h3 {
+    margin: 0;
+    color: $unless-red;
+    background: white;
+    text-align: center;
+    padding: 20px;
+  }
+  background: $unless-blue;
+  .profile {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .profile-image {
+    transform: scale(1.1);
+    box-shadow: inset -6px -6px 9px rgba(1,1,1,0.5);
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+    flex: 0 0 50%;
+  }
+  @media (max-width: 992px) {
+    p {
+      font-size: 9px;
+    }
+  }
+  @media (min-width: 992px) {
+    p {
+      font-size: 13px;
+    }
+  }
+  p {
+    line-height: 19px;
+    font-family: Libre Baskerville;
+  }
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    height: 300px;
+    padding: 30px;
+    margin: 0;
+    flex: 0 0 50%;
+  }
+}

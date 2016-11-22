@@ -1,5 +1,6 @@
 .projects {
-  @media (max-width: 600px) {
+  padding-bottom: 50px;
+  @media (max-width: 992px) {
     .left {
       justify-content: center;
     }
@@ -7,13 +8,17 @@
       justify-content: center;
     }
   }
-  @media (min-width: 600px) {
+  @media (min-width: 992px) {
     .left {
       justify-content: flex-end;
     }
     .right {
       justify-content: flex-start;
     }
+  }
+  a {
+    text-decoration: none;
+    color: #333333;
   }
 }
 
@@ -49,8 +54,7 @@ $project-image-size: 250px;
     width: $project-image-size;
     height: $project-image-size;
     .extra-info {
-      a {
-        text-decoration: none;
+      i {
         color: $unless-red;
       }
       display: flex;

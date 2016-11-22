@@ -2,12 +2,13 @@
   <div class="container">
     <div class="row">
       <% data.projects.each_with_index do |project, index| %>
-      <div class="col-lg-6 col-xs-12">
+      <div class="col-lg-6 col-md-6 col-xs-12">
         <% if index.odd? %>
         <div class="right project-wrapper">
           <% else %>
           <div class="left project-wrapper">
             <% end %>
+            <% link_to "/projects#{project.url}.html" do %>
             <div class="project">
               <div class="header">
                 <h2>
@@ -28,12 +29,11 @@
                       ...
                     </span>
                   </p>
-                  <a href="/projects/<%= project.url %>.html">
-                    <i class="fa fa-arrow-right"></i>
-                  </a>
+                  <i class="fa fa-arrow-right"></i>
                 </div>
               </div>
             </div>
+            <% end %>
           </div>
         </div>
         <% end %>
