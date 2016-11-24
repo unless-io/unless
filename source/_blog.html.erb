@@ -1,0 +1,36 @@
+<div class="blogs">
+  <div class="container">
+    <div class="row">
+      <% data.blogs.each do |blog| %>
+      <div class="col-lg-6 col-xs-12">
+        <div class="blog">
+          <div class="image">
+            <%= image_tag blog.image %>
+          </div>
+          <div class="introduction-box">
+            <div class="introduction">
+              <% link_to(blog.medium_url) do %>
+              <h3>  
+                <%= blog.title %>
+              </h3>
+              <% end %>
+              <p>
+                <%= blog.introduction %>
+              </p>
+            </div>
+            <div class="background"></div>
+          </div>
+          <div class="author-box">
+            <div class="author">
+              <%= image_tag blog.author_image_url, class: "avatar-large" %>
+              <h4>
+                <%= blog.author %>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</div>

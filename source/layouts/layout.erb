@@ -24,10 +24,10 @@
       <![endif]-->
     </head>
 
-    <body class="<%= page_classes %>">
+    <body class="unless-<%= page_classes %>">
 
       <%= partial "navbar" %>
       <%= yield %>
-
+      <%= partial "contact" %>
     </body>
     </html>

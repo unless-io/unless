@@ -1,0 +1,125 @@
+.projects {
+  padding-bottom: 50px;
+  @media (max-width: 992px) {
+    .left {
+      justify-content: center;
+    }
+    .right {
+      justify-content: center;
+    }
+  }
+  @media (min-width: 992px) {
+    .left {
+      justify-content: flex-end;
+    }
+    .right {
+      justify-content: flex-start;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #333333;
+  }
+}
+
+$project-image-size: 250px;
+
+.project-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+
+.project {
+  margin: 20px;
+  width: $project-image-size;
+  height: 325px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: baseline;
+  .header {
+    height: 65px;
+    margin-top: 10px;
+
+    h2 {
+      margin: 0;
+      display: block;
+      font-size: 18px;
+    }
+    .underline-left-to-right {
+      width: 0;
+      border-bottom: 2px solid $unless-red;
+      transition: width 0.5s ease;
+    }
+  }
+  .image-set {
+    position: relative;
+    width: $project-image-size;
+    height: $project-image-size;
+    .extra-info {
+      i {
+        color: $unless-red;
+      }
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      p {
+        font-family: Libre Baskerville;
+        font-weight: 400;
+        font-size: 13px;
+      }
+      .paragraph-start {
+        font-weight: 800;
+      }
+      .dots {
+        color: $unless-red;
+        font-weight: 800;
+      }
+      padding: 15px;
+      background: white;
+      opacity: 0;
+      z-index: 2;
+      position:absolute;
+      height: 150px;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      transform: translate(0px, 0px);
+      transition: opacity 200ms ease, transform 200ms ease;
+    }
+    .background {
+      z-index: -1;
+      position:absolute;
+      background: $unless-green;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+    }
+    .background-img {
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      width: $project-image-size;
+      transform: translate(0px, 0px);
+      transition: transform 200ms ease;
+    }
+  }
+  &:hover .image-set .background-img {
+    transform: translate(-20px, -20px);
+  }
+  &:hover .image-set .extra-info {
+    transform: translate(-20px, -20px);
+    opacity: 1;
+  }
+  &:hover .underline-left-to-right {
+    width: 100%;
+    border-bottom: 2px solid $unless-red;
+  }
+}
+

@@ -13,6 +13,10 @@ activate :autoprefixer
 ###
 # Page options, layouts, aliases and proxies
 ###
+#
+data.projects.each do |project|
+  proxy "/projects/#{project.url}.html", "/projects/show.html", locals: { project: project }
+end
 
 # Per-page layout changes:
 #
@@ -55,6 +59,8 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+set :fonts_dir,  'fonts'
 
 # Build-specific configuration
 configure :build do
