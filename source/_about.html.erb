@@ -7,9 +7,27 @@
       We make stuff for cool people. Are you cool? Do not hesitate to contact us. Let me tell you. we've been making cool stuff for a while now and it's progressively been getting cooler. We're based in Amsterdam but we're also kind of all over the place, #remotework. Because we're not just cool, we're also hip. Be friends with us now and subscribe to our newsletter. Also follow us on Facebook, Twitter. Everywhere! Please.
     </p>
     <div class="subscribe">
-      <label for="newsletter">Subscribe</label>
-      <input type="text" id="newsletter">
-    </div>
+      <form action="https://formspree.io/info@unless.io"
+      method="POST">
+      <div class="left">
+        <div class="input-group">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" placeholder="John Smith">
+        </div>
+        <div class="input-group">
+          <label for="email">Email:</label>
+          <input type="email" name="_replyto" id="email" placeholder="johnsmith@google.com">
+        </div>
+      </div>
+      <div class="right">
+        <div class="input-group">
+          <label for="message">Your message to us:</label>
+          <textarea type="text" name="message" id="message" placeholder="We would like to ask you about .. "></textarea>
+        </div>
+        <input type="submit" value="Send" class="button">
+      </div>
+    </form>
   </div>
+</div>
 </div>
 

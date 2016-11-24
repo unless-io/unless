@@ -2,7 +2,8 @@
   width: 700px;
   margin: 0 auto;
   padding: 20px;
-  li {
+  min-height: 800px;
+  .optional-info li {
     width: 200px;
   }
   h2 {
@@ -28,4 +29,9 @@
       border-bottom: 2px solid $unless-red;
     }
   }
+}
+
+#carousel-example-generic {
+  width: 500px;
+  margin: 40px auto;
 }
