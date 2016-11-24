@@ -2,13 +2,30 @@
   width: 700px;
   margin: 0 auto;
   padding: 20px;
+  li {
+    width: 200px;
+  }
   h2 {
     text-align: center;
     border-bottom: 2px solid $unless-red;
     padding: 20px;
   }
   p {
+    line-height: 35px;
     width: 700px;
     margin: 0 auto;
+  }
+  a {
+    color: $unless-red;
+    text-decoration: none;
+    .underline-left-to-right {
+      width: 0;
+      border-bottom: 2px solid $unless-red;
+      transition: width 0.5s ease;
+    }
+    &:hover .underline-left-to-right {
+      width: 100%;
+      border-bottom: 2px solid $unless-red;
+    }
   }
 }

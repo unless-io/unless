@@ -8,13 +8,8 @@
           <% else %>
           <div class="left project-wrapper">
             <% end %>
-            <% link_to "/projects#{project.url}.html" do %>
+            <% link_to "/projects/#{project.url}.html" do %>
             <div class="project">
-              <div class="header">
-                <h2>
-                  <%= project.name %>
-                </h2>
-              </div>
               <div class="image-set">
                 <%= image_tag project.image %>
                 <div class="background"></div>
@@ -31,6 +26,12 @@
                   </p>
                   <i class="fa fa-arrow-right"></i>
                 </div>
+              </div>
+              <div class="header">
+                <h2>
+                  <%= project.name %>
+                </h2>
+                <div class="underline-left-to-right"></div>
               </div>
             </div>
             <% end %>

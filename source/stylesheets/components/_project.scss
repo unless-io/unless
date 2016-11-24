@@ -33,21 +33,25 @@ $project-image-size: 250px;
 .project {
   margin: 20px;
   width: $project-image-size;
-  height: 350px;
+  height: 325px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   align-items: baseline;
   .header {
     height: 65px;
-    margin-bottom: 35px;
-  }
-  h2 {
-    display: block;
-    font-size: 18px;
-    border-bottom: 0px solid white;
-    transform: translate(0px, 0px);
-    transition: border-bottom 100ms ease, transform 200ms ease;
+    margin-top: 10px;
+
+    h2 {
+      margin: 0;
+      display: block;
+      font-size: 18px;
+    }
+    .underline-left-to-right {
+      width: 0;
+      border-bottom: 2px solid $unless-red;
+      transition: width 0.5s ease;
+    }
   }
   .image-set {
     position: relative;
@@ -111,9 +115,9 @@ $project-image-size: 250px;
     transform: translate(-20px, -20px);
     opacity: 1;
   }
-  &:hover h2 {
+  &:hover .underline-left-to-right {
+    width: 100%;
     border-bottom: 2px solid $unless-red;
-    transform: translate(-20px, -20px);
   }
 }
 
