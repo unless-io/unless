@@ -1,6 +1,6 @@
 - name: Chicken
   description: Chicken is an experimental platform that was designed,  developed and tested in a three week sprint. On Chicken users could challenge friends to develop and maintain positive and productive habits through a month long program. For example, a user of Chicken could challenge a friend to go running for at least 3 hours a week for one month. During that month the contestants could record the time spent for every time they went for a run. The person who is closest to their intended goal wins. Users were encouraged to aim high in their estimations to make the challenge a little more interesting. 
-  image: /images/dummy.jpg
+  image: /images/lars.jpg
   url: chicken
   video_url: https://www.youtube.com/v/6ebCdcUAYVE
   links:

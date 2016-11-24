@@ -97,7 +97,9 @@ $project-image-size: 250px;
       right: 0;
       left: 0;
     }
-    img {
+    .background-img {
+      background-size: cover;
+      background-position: center;
       position: absolute;
       top: 0;
       bottom: 0;
@@ -108,7 +110,7 @@ $project-image-size: 250px;
       transition: transform 200ms ease;
     }
   }
-  &:hover .image-set img {
+  &:hover .image-set .background-img {
     transform: translate(-20px, -20px);
   }
   &:hover .image-set .extra-info {
