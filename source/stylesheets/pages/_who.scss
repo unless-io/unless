@@ -20,11 +20,11 @@
   }
   .profile-image {
     transform: scale(1.1);
-    box-shadow: inset -6px -6px 9px rgba(1,1,1,0.5);
+    // box-shadow: inset -6px -6px 9px rgba(1,1,1,0.5);
     background-size: cover;
     height: 200px;
     background-position: center;
-    flex: 0 0 50%;
+    flex: 0 0 35%;
   }
   @media (max-width: 992px) {
     p {
@@ -49,6 +49,6 @@
     height: 300px;
     padding: 30px;
     margin: 0;
-    flex: 0 0 50%;
+    flex: 0 0 60%;
   }
 }
