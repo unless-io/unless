@@ -11,7 +11,8 @@
             <% link_to "/projects/#{project.url}.html" do %>
             <div class="project">
               <div class="image-set">
-                <div class="background-img" style="background-image: url('<%= project.image %>');"></div>
+              <!-- Let op  -->
+                <div class="background-img" style="background-image: url('<%= project.images.first[1] %>');"></div>
                 <div class="background"></div>
                 <div class="extra-info">
                   <p>

@@ -1,6 +1,35 @@
+- name: Yuno
+  description: At a certain season of our life we are accustomed to consider every spot as the possible site of a house. I have thus surveyed the country on every side within a dozen miles of where I live. In imagination I have bought all the farms in succession, for all were to be bought, and I knew their price. I walked over each farmer's premises, tasted his wild apples, discoursed on husbandry with him, took his farm at his price, at any price, mortgaging it to him in my mind; even put a higher price on it — took everything but a deed of it — took his word for his deed, for I dearly love to talk — cultivated it, and him too to some extent, I trust, and withdrew when I had enjoyed it long enough, leaving him to carry it on.
+  images:
+    1: /images/yuno/spire.jpg
+    2: /images/yuno/yuno-logo.jpg
+    3: /images/yuno/garage2020.jpg
+  url: yuno
+  tech-stack: Ruby on Rails
+  links:
+    article1: http://nu.nl/
+    article2: http://nu.nl/
+    article2: http://nu.nl/
+
+- name: Cup of Change
+  description: At a certain season of our life we are accustomed to consider every spot as the possible site of a house. I have thus surveyed the country on every side within a dozen miles of where I live. In imagination I have bought all the farms in succession, for all were to be bought, and I knew their price. I walked over each farmer's premises, tasted his wild apples, discoursed on husbandry with him, took his farm at his price, at any price, mortgaging it to him in my mind; even put a higher price on it — took everything but a deed of it — took his word for his deed, for I dearly love to talk — cultivated it, and him too to some extent, I trust, and withdrew when I had enjoyed it long enough, leaving him to carry it on.
+  images:
+    1: /images/cupofchange/cupofchange-01.png
+    2: /images/cupofchange/cupofchange-02.png
+    3: /images/cupofchange/cupofchange-03.png
+  url: cupofchange
+  tech-stack: Not applicable
+  links:
+    article1: http://nu.nl/
+    article2: http://nu.nl/
+    article2: http://nu.nl/
+
 - name: Chicken
-  description: Chicken is an experimental platform that was designed,  developed and tested in a three week sprint. On Chicken users could challenge friends to develop and maintain positive and productive habits through a month long program. For example, a user of Chicken could challenge a friend to go running for at least 3 hours a week for one month. During that month the contestants could record the time spent for every time they went for a run. The person who is closest to their intended goal wins. Users were encouraged to aim high in their estimations to make the challenge a little more interesting. 
-  image: /images/lars.jpg
+  description: Chicken is an experimental platform that was designed,  developed and tested in a three week sprint. On Chicken users could challenge friends to develop and maintain positive and productive habits through a month long program. For example, a user of Chicken could challenge a friend to go running for at least 3 hours a week for one month. During that month the contestants could record the time spent for every time they went for a run. The person who is closest to their intended goal wins. Users were encouraged to aim high in their estimations to make the challenge a little more interesting.
+  images:
+    1: /images/chicken/chicken1.png
+    2: /images/chicken/chicken2.png
+    3: /images/chicken/chicken3.png
   url: chicken
   video_url: https://www.youtube.com/v/6ebCdcUAYVE
   links:
@@ -10,41 +39,38 @@
     1: Lena Hartog
     2: Le Wagon
 
-- name: De Vliegende Oppas
+- name: Le Wagon by Night
   description: At a certain season of our life we are accustomed to consider every spot as the possible site of a house. I have thus surveyed the country on every side within a dozen miles of where I live. In imagination I have bought all the farms in succession, for all were to be bought, and I knew their price. I walked over each farmer's premises, tasted his wild apples, discoursed on husbandry with him, took his farm at his price, at any price, mortgaging it to him in my mind; even put a higher price on it — took everything but a deed of it — took his word for his deed, for I dearly love to talk — cultivated it, and him too to some extent, I trust, and withdrew when I had enjoyed it long enough, leaving him to carry it on.
-  image: /images/dummy.jpg
-  url: unless2
-  tech-stack: Ruby on Rails
+  images:
+    1: /images/lewagonbynight/bannerwagon.png
+    2: /images/lewagonbynight/infowagon.png
+  url: lewagonbynight
+  tech-stack: Middleman
   links:
     article1: http://nu.nl/
     article2: http://nu.nl/
     article2: http://nu.nl/
 
-- name: Yuno
+- name: Pilou
   description: At a certain season of our life we are accustomed to consider every spot as the possible site of a house. I have thus surveyed the country on every side within a dozen miles of where I live. In imagination I have bought all the farms in succession, for all were to be bought, and I knew their price. I walked over each farmer's premises, tasted his wild apples, discoursed on husbandry with him, took his farm at his price, at any price, mortgaging it to him in my mind; even put a higher price on it — took everything but a deed of it — took his word for his deed, for I dearly love to talk — cultivated it, and him too to some extent, I trust, and withdrew when I had enjoyed it long enough, leaving him to carry it on.
-  image: /images/dummy.jpg
-  url: unless3
-  tech-stack: Ruby on Rails
-  links:
-    article1: http://nu.nl/
-    article2: http://nu.nl/
-    article2: http://nu.nl/
-  
-- name: Cup of Change
-  description: At a certain season of our life we are accustomed to consider every spot as the possible site of a house. I have thus surveyed the country on every side within a dozen miles of where I live. In imagination I have bought all the farms in succession, for all were to be bought, and I knew their price. I walked over each farmer's premises, tasted his wild apples, discoursed on husbandry with him, took his farm at his price, at any price, mortgaging it to him in my mind; even put a higher price on it — took everything but a deed of it — took his word for his deed, for I dearly love to talk — cultivated it, and him too to some extent, I trust, and withdrew when I had enjoyed it long enough, leaving him to carry it on.
-  image: /images/dummy.jpg
-  url: unless4
+  images:
+    1: /images/pilou/vliegtuig.png
+    2: /images/pilou/form.png
+    3: /images/pilou/graphic.png
+  url: pilou
   tech-stack: Not applicable
   links:
     article1: http://nu.nl/
     article2: http://nu.nl/
     article2: http://nu.nl/
 
-- name: Le Wagon by Night
+- name: De Vliegende Oppas
   description: At a certain season of our life we are accustomed to consider every spot as the possible site of a house. I have thus surveyed the country on every side within a dozen miles of where I live. In imagination I have bought all the farms in succession, for all were to be bought, and I knew their price. I walked over each farmer's premises, tasted his wild apples, discoursed on husbandry with him, took his farm at his price, at any price, mortgaging it to him in my mind; even put a higher price on it — took everything but a deed of it — took his word for his deed, for I dearly love to talk — cultivated it, and him too to some extent, I trust, and withdrew when I had enjoyed it long enough, leaving him to carry it on.
-  image: /images/dummy.jpg
-  url: unless4
-  tech-stack: Middleman
+  images:
+    1: /images/vliegendeoppas/banner.png
+    2: /images/vliegendeoppas/content.png
+  url: vliegendeoppas
+  tech-stack: Ruby on Rails
   links:
     article1: http://nu.nl/
     article2: http://nu.nl/
