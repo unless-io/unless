@@ -9,13 +9,13 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="<%= project.images.first[1] %>" alt="...">
+      <img src="../<%= project.images.first[1] %>" alt="...">
       <div class="carousel-caption">
       </div>
     </div>
     <% project.images.values[1..-1].each do |image| %>
     <div class="item">
-      <img src="<%= image %>" alt="...">
+      <img src="../<%= image %>" alt="...">
       <div class="carousel-caption">
       </div>
     </div>
