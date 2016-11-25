@@ -2,8 +2,8 @@
   description: Project Yuno was initiated after taking part in and winning the 'Stressless Challenge' where young innovators were challenged to come up with new ideas to reduce stress. By using the Spire wearable, breathing by the user can be tracked, stress detected and this information is then presented to a coach who helps develop a plan with exercises to reduce similar bursts of stress from happening in the future.
   images:
     1: images/yuno/spire.jpg
-    2: images/yuno/yuno-logo.jpg
-    3: images/yuno/garage2020.jpg
+    2: images/yuno/yuno-logo.png
+    3: images/yuno/garag2020.jpg
   url: yuno
   tech-stack: Ruby on Rails
   links:
