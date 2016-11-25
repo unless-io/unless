@@ -1,11 +1,11 @@
 - opening_text: We are a <span>digital agency</span> working on projects all over the world. We cover the entire scope from <span>concept</span> to <span>branding</span>, <span>development</span> and <span>strategy</span>.
   tagline: It's <span id="emphasis">exactly</span> what you think it is.
 
-  about_title: "\"Do but normal, then you already do crazy enough\""
-  about_text: "We make stuff for cool people. Are you cool? Do not hesitate to contact us. Let me tell you. we've been making cool stuff for a while now and it's progressively been getting cooler. We're based in Amsterdam but we're also kind of all over the place, #remotework. Because we're not just cool, we're also hip. Be friends with us now and subscribe to our newsletter. Also follow us on Facebook, Twitter. Everywhere! Please."
+  about_title: "\"Consider it done. What's next?\""
+  about_text: "Kicking off in 2016, we are ready for world domination. After an already long period of working together for a coding bootcamp we found that it was our mutual goal to create products that can really fasttrack much needed change. While having diverse backgrounds we saw how technology can change lifes, and that's exactly what we are trying to establish. We thrive to give people a voice."
 
   contact_title: Contact us
-  contact_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id arcu dolor. In convallis justo vitae sollicitudin pretium. Morbi sodales non nibh mattis molestie. Ut posuere ligula et lectus dapibus feugiat. Phasellus lorem urna, imperdiet dictum hendrerit nec, tempus ut sem. Vivamus finibus eleifend lectus eget porta. Morbi vel metus.
+  contact_text: As you may have seen on our website, we love to build stuff, but also to think about concepts and strategies with our clients. So feel free to drop us a line if you have any questions or want an obligation free quote from us.
 
   social:
     twitter: https://twitter.com/unless_io
@@ -13,7 +13,7 @@
     facebook: https://facebook.com/unless-io
   email: info@unless.io
   email_subject: Hello World
-  
+
   founders:
     1:
       name: michele
