@@ -1,16 +1,75 @@
-.contact-wrapper {
-  background: $unless-blue;
-  height: 80px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  .social {
-    color: white;
-    width: 100px;
+.subscribe {
+  .intro {
+    max-width: 600px;
+    margin: 40px auto;
+  }
+   @media (max-width: 992px) {
+    form {
+      height: 400px;
+      flex-direction: column;
+    }
+  }
+  @media (min-width: 992px) {
+    form {
+      width: 600px;
+      height: 200px;
+    }
+  }
+  form {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
+    align-items: flex-start;
+    .left, .right {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      height: 100%;
+    }
+    textarea {
+      height: 115px;
+      border: 1px solid rgba(1,1,1,0.3);
+      padding: 10px;
+      // border-radius
+    }
+  }
+  // padding: 20px;
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px rgba(1, 1, 1, 0.6);
+
+  label {
+    color: #333333;
+    font-weight: 400;
+    font-family: Arvo;
+  }
+  input {
+    color: $unless-black;
+    padding: 10px;
+    border: 1px solid rgba(1,1,1,0.3);
+  }
+  .input-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .button {
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    color: white;
+    background: $unless-red;
+    border-radius: 2px;
+    width: 85px;
+    font-weight: 400;
+    font-family: Arvo;
   }
 }
+
