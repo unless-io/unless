@@ -10,8 +10,49 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+    <meta name="description"           content="<%= data.meta.first.description %>" />
+
+    <!-- Geocoding -->
+    <meta name="geo.placename"         content="<%= data.meta.first.geo_placename %>" />
+    <meta name="geo.position"          content="<%= data.meta.first.geo_position %>" />
+    <meta name="geo.region"            content="<%= data.meta.first.geo_region %>" />
+
+    <!-- Microdata -->
+    <meta itemprop="name"              content="<%= data.meta.first.name %>" />
+    <meta itemprop="description"       content="<%= data.meta.first.description %>" />
+    <meta itemprop="image"             content="<%= data.meta.first.image %>" />
+
+    <!-- Facebook Open Graph data -->
+    <meta property="og:site_name"      content="<%= data.meta.first.fb_site_name %>" />
+    <meta property="og:title"          content="<%= data.meta.first.fb_title %>" />
+    <meta property="og:description"    content="<%= data.meta.first.fb_description %>" />
+    <meta property="og:image"          content="<%= data.meta.first.fb_image %>" />
+    <meta property="og:type"           content="<%= data.meta.first.fb_type %>" />
+    <meta property="og:url"            content="<%= data.meta.first.fb_url %>" />
+
+    <!-- Google+ -->
+    <meta itemprop="name"              content="<%= data.meta.first.google_name %>" />
+    <meta itemprop="description"       content="<%= data.meta.first.google_description %>" />
+    <meta itemprop="image"             content="<%= data.meta.first.google_image %>" />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card"          content="<%= data.meta.first.twitter_card_type %>" />
+    <meta name="twitter:site"          content="<%= data.meta.first.twitter_site %>" />
+    <meta name="twitter:title"         content="<%= data.meta.first.twitter_title %>" />
+    <meta name="twitter:description"   content="<%= data.meta.first.twitter_description %>" />
+    <meta name="twitter:image:src"     content="<%= data.meta.first.twitter_image %>" />
+
+
   <!-- Use title if it's in the page YAML frontmatter -->
-  <title><%= current_page.data.title || "Unless" %></title>
+  <% if current_page.data.title %>
+  <% title = "Unless | #{current_page.data.title}" %>
+  <% elsif project.name %>
+  <% title = "Unless | #{project.name}" %>
+  <% else %>
+  <% title = "Unless" %>
+  <% end %>
+  <title><%= title %></title>
 
   <%= stylesheet_link_tag "all" %>
   <%= javascript_include_tag  "all" %>
