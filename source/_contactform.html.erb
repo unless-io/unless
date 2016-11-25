@@ -1,0 +1,29 @@
+    <div class="subscribe">
+      <div class="intro">
+        <h2>
+          <%= data.general.first.contact_title %>
+        </h2>
+        <p>
+          <%= data.general.first.contact_text %>
+        </p>
+      </div>
+      <form action="https://formspree.io/info@unless.io" method="POST">
+      <div class="left">
+        <div class="input-group">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" placeholder="John Smith">
+        </div>
+        <div class="input-group">
+          <label for="email">Email:</label>
+          <input type="email" name="_replyto" id="email" placeholder="johnsmith@google.com">
+        </div>
+      </div>
+      <div class="right">
+        <div class="input-group">
+          <label for="message">Your message to us:</label>
+          <textarea type="text" name="message" id="message" placeholder="We would like to ask you about .. "></textarea>
+        </div>
+        <input type="submit" value="Send" class="button">
+      </div>
+    </form>
+  </div>

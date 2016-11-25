@@ -1,4 +1,4 @@
-<div class="banner" style="background-image:url(<%= project.image %>)"></div>
+<div class="banner" style="background-image:url(<%= project.images[1] %>)"></div>
 <div class="project-content">
   <h2>
     <%= project.name %>
@@ -6,34 +6,37 @@
   <p>
     <%= project.description %>
   </p>
-  <% unless project.links.nil? %>
-  <h3>
-    Related links
-  </h3>
-  <ul>
-    <% project.links.each do |link| %>
-    <li>
-      <% link_to link[1] do %>
-      <%= link[0] %>
-      <div class="underline-left-to-right"></div>
+  <div class="optional-info">
+    <% unless project.links.nil? %>
+    <h3>
+      Related links
+    </h3>
+    <ul>
+      <% project.links.each do |link| %>
+      <li>
+        <% link_to link[1] do %>
+        <%= link[0] %>
+        <div class="underline-left-to-right"></div>
+        <% end %>
+      </li>
       <% end %>
-    </li>
+    </ul>
     <% end %>
-  </ul>
-  <% end %>
-  <% unless project.partners.nil? %>
-  <h3>
-    Partners
-  </h3>
-  <ul>
-    <% project.partners.each do |partner| %>
-    <li>
-      <%= partner[1] %>
-    </li>
+    <% unless project.partners.nil? %>
+    <h3>
+      Partners
+    </h3>
+    <ul>
+      <% project.partners.each do |partner| %>
+      <li>
+        <%= partner[1] %>
+      </li>
+      <% end %>
+    </ul>
     <% end %>
-  </ul>
-  <% end %>
-  <% unless project.video_url.nil? %>
-  <iframe width="560" height="315" src="<%= project.video_url %>" frameborder="0" allowfullscreen></iframe>
-  <% end %>
+    <% unless project.video_url.nil? %>
+    <iframe width="560" height="315" src="<%= project.video_url %>" frameborder="0" allowfullscreen></iframe>
+    <% end %>
+  </div>
+  <%= partial "carousel", locals: { project: project } %>
 </div>

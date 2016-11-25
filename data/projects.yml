@@ -1,51 +1,67 @@
+- name: Yuno
+  description: Project Yuno was initiated after taking part in and winning the 'Stressless Challenge' where young innovators were challenged to come up with new ideas to reduce stress. By using the Spire wearable, breathing by the user can be tracked, stress detected and this information is then presented to a coach who helps develop a plan with exercises to reduce similar bursts of stress from happening in the future.
+  images:
+    1: /images/yuno/spire.jpg
+    2: /images/yuno/yuno-logo.jpg
+    3: /images/yuno/garage2020.jpg
+  url: yuno
+  tech-stack: Ruby on Rails
+  links:
+    Garage2020: http://www.garage2020.nl/
+    Yuno project: http://www.garage2020.nl/yuno/
+
+- name: Cup of Change
+  description: Cup of Change is a series of events where host and organizer Melinda Bodo interviews people who have undergone a radical career change. Set up to inspire and motivate people to make radical changes in their lives, then coach them in the process.
+  images:
+    1: /images/cupofchange/cupofchange-01.png
+    2: /images/cupofchange/cupofchange-02.png
+    3: /images/cupofchange/cupofchange-03.png
+  url: cupofchange
+  tech-stack: Not applicable
+  links:
+
 - name: Chicken
-  description: Chicken is an experimental platform that was designed,  developed and tested in a three week sprint. On Chicken users could challenge friends to develop and maintain positive and productive habits through a month long program. For example, a user of Chicken could challenge a friend to go running for at least 3 hours a week for one month. During that month the contestants could record the time spent for every time they went for a run. The person who is closest to their intended goal wins. Users were encouraged to aim high in their estimations to make the challenge a little more interesting. 
-  image: /images/lars.jpg
+  description: Chicken is an experimental platform that was designed,  developed and tested in a three week sprint. On Chicken users could challenge friends to develop and maintain positive and productive habits through a month long program. For example, a user of Chicken could challenge a friend to go running for at least 3 hours a week for one month. During that month the contestants could record the time spent for every time they went for a run. The person who is closest to their intended goal wins. Users were encouraged to aim high in their estimations to make the challenge a little more interesting.
+  images:
+    1: /images/chicken/chicken1.png
+    2: /images/chicken/chicken2.png
+    3: /images/chicken/chicken3.png
   url: chicken
   video_url: https://www.youtube.com/v/6ebCdcUAYVE
   links:
-    article1: http://challengechicken.me/
-    article2: http://alumni.lewagon.org/projects/84
+    Chicken: http://challengechicken.me/
+    Le Wagon team: http://alumni.lewagon.org/projects/84
   partners:
     1: Lena Hartog
     2: Le Wagon
 
-- name: De Vliegende Oppas
-  description: At a certain season of our life we are accustomed to consider every spot as the possible site of a house. I have thus surveyed the country on every side within a dozen miles of where I live. In imagination I have bought all the farms in succession, for all were to be bought, and I knew their price. I walked over each farmer's premises, tasted his wild apples, discoursed on husbandry with him, took his farm at his price, at any price, mortgaging it to him in my mind; even put a higher price on it — took everything but a deed of it — took his word for his deed, for I dearly love to talk — cultivated it, and him too to some extent, I trust, and withdrew when I had enjoyed it long enough, leaving him to carry it on.
-  image: /images/dummy.jpg
-  url: unless2
-  tech-stack: Ruby on Rails
-  links:
-    article1: http://nu.nl/
-    article2: http://nu.nl/
-    article2: http://nu.nl/
-
-- name: Yuno
-  description: At a certain season of our life we are accustomed to consider every spot as the possible site of a house. I have thus surveyed the country on every side within a dozen miles of where I live. In imagination I have bought all the farms in succession, for all were to be bought, and I knew their price. I walked over each farmer's premises, tasted his wild apples, discoursed on husbandry with him, took his farm at his price, at any price, mortgaging it to him in my mind; even put a higher price on it — took everything but a deed of it — took his word for his deed, for I dearly love to talk — cultivated it, and him too to some extent, I trust, and withdrew when I had enjoyed it long enough, leaving him to carry it on.
-  image: /images/dummy.jpg
-  url: unless3
-  tech-stack: Ruby on Rails
-  links:
-    article1: http://nu.nl/
-    article2: http://nu.nl/
-    article2: http://nu.nl/
-  
-- name: Cup of Change
-  description: At a certain season of our life we are accustomed to consider every spot as the possible site of a house. I have thus surveyed the country on every side within a dozen miles of where I live. In imagination I have bought all the farms in succession, for all were to be bought, and I knew their price. I walked over each farmer's premises, tasted his wild apples, discoursed on husbandry with him, took his farm at his price, at any price, mortgaging it to him in my mind; even put a higher price on it — took everything but a deed of it — took his word for his deed, for I dearly love to talk — cultivated it, and him too to some extent, I trust, and withdrew when I had enjoyed it long enough, leaving him to carry it on.
-  image: /images/dummy.jpg
-  url: unless4
-  tech-stack: Not applicable
-  links:
-    article1: http://nu.nl/
-    article2: http://nu.nl/
-    article2: http://nu.nl/
-
 - name: Le Wagon by Night
-  description: At a certain season of our life we are accustomed to consider every spot as the possible site of a house. I have thus surveyed the country on every side within a dozen miles of where I live. In imagination I have bought all the farms in succession, for all were to be bought, and I knew their price. I walked over each farmer's premises, tasted his wild apples, discoursed on husbandry with him, took his farm at his price, at any price, mortgaging it to him in my mind; even put a higher price on it — took everything but a deed of it — took his word for his deed, for I dearly love to talk — cultivated it, and him too to some extent, I trust, and withdrew when I had enjoyed it long enough, leaving him to carry it on.
-  image: /images/dummy.jpg
-  url: unless4
+  description: Le Wagon by Night is an event initiated by Le Wagon BeNeLux with the purpose of offering a short evening program to initiate people into the world of programming in an eased and comfortable fashion over the course of 10 weeks.
+  images:
+    1: /images/lewagonbynight/bannerwagon.png
+    2: /images/lewagonbynight/infowagon.png
+  url: lewagonbynight
   tech-stack: Middleman
   links:
-    article1: http://nu.nl/
-    article2: http://nu.nl/
-    article2: http://nu.nl/
+    Le Wagon: http://www.lewagon.org
+
+- name: Custom form for pilou.be
+  description: Pilou is a project by the Belgian artist Marrigje Spoelstra who offers handcrafted toy planes with custom name engraving for children.
+  images:
+    1: /images/pilou/vliegtuig.png
+    2: /images/pilou/form.png
+    3: /images/pilou/graphic.png
+  url: pilou
+  tech-stack: Not applicable
+  links:
+    Pilou: http://www.pilou.be
+
+- name: De Vliegende Oppas
+  description: Vliegende Oppas is a platform designed as 'the AirBnB for babysitters'. Made during a one week sprint it offers parents the possibility to look for babysitters and it offers babysitters the possibility to offer their services, based on personal availability, to parents. A review system is set in place to ensure quality.
+  images:
+    1: /images/vliegendeoppas/banner.png
+    2: /images/vliegendeoppas/content.png
+  url: vliegendeoppas
+  tech-stack: Ruby on Rails
+  links:
+

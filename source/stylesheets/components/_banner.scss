@@ -3,4 +3,45 @@
   height: 400px;
   background-size: cover;
   background-position: center;
+  box-shadow: inset 0px -2px 4px rgba(1,1,1,0.2);
+}
+
+@media (max-width: 992px) {
+  .banner-home {
+    padding: 20px 20px;
+
+  }
+}
+@media (min-width: 992px) {
+  .banner-home {
+    padding: 20px 80px;
+  }
+}
+
+.banner-home {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .banner-content {
+    span {
+      color: $unless-red;
+    }
+    #emphasis {
+      border-bottom: 2px solid $unless-red;
+    }
+    @media (max-width: 992px) {
+      p {
+        font-size: 18pt;
+      }
+    }
+    @media (min-width: 992px) {
+      p {
+        font-size: 30pt;
+      }
+    }
+    p {
+      margin: 40px 20px;
+    }
+  }
 }

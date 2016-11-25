@@ -1,0 +1,37 @@
+#footer {
+  background: $unless-blue;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .social {
+    width: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    a {
+      font-size: 30px;
+      text-decoration: none;
+      display: block;
+      color: white;
+      transform: scale(1);
+      transition: scale 200ms ease, color 200ms ease;
+      &:hover {
+        color: $unless-red;
+        transform: scale(1.1);
+      }
+    }
+  }
+  .email-link {
+    color: white;
+    letter-spacing: 2px;
+    font-family: Arvo;
+    margin: 20px;
+    transition: color 200ms ease;
+    &:hover {
+      color: $unless-red;
+    }
+  }
+}
