@@ -1,7 +1,7 @@
 <div class="projects">
-<h2>
-  Projects
-</h2>
+  <h2>
+    Projects
+  </h2>
   <div class="container">
     <div class="row">
       <% data.projects.each_with_index do |project, index| %>
@@ -14,10 +14,10 @@
             <% link_to "/projects/#{project.url}.html" do %>
             <div class="project">
               <div class="image-set">
-              <!-- Let op  -->
+                <!-- Let op  -->
                 <div class="background-img" style="background-image: url('<%= project.images.first[1] %>');"></div>
                 <div class="background"></div>
-                <div class="extra-info">
+                <div class="extra-info hidden-xs">
                   <p>
                     <span class="paragraph-start">
                       <% description_intro = project.description.split(" ") %>
@@ -36,6 +36,19 @@
                   <%= project.name %>
                 </h2>
                 <div class="underline-left-to-right"></div>
+              </div>
+              <div class="extra-info hidden-lg">
+                <p>
+                  <span class="paragraph-start">
+                    <% description_intro = project.description.split(" ") %>
+                    <%= description_intro.shift(3).join(" ") %>
+                  </span>
+                  <%= description_intro.first(25).join(" ") %>
+                  <span class="dots">
+                    ...
+                  </span>
+                </p>
+                <i class="fa fa-arrow-right"></i>
               </div>
             </div>
             <% end %>

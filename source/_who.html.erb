@@ -1,39 +1,23 @@
 <div id="who">
-<h2>
-  Who runs this joint?
-</h2>
   <div class="container">
     <div class="row">
+      <% data.general.first.founders.each do |founder| %>
       <div class="col-lg-6 col-md-6 col-xs-12">
         <div class="profile-container">
           <div class="profile">
-            <div class="profile-image" style="background-image: url('images/michele.jpg')"></div>
+            <div class="profile-image" style="background-image: url('images/<%= founder.last.name %>.jpg')"></div>
             <div class="about">
               <p>
-              "Michèle studied General Social Sciences at the University of Amsterdam, finished, got bored. Decided to follow the Le Wagon coding bootcamp. Finished with flying colours, became manager at said bootcamp, got bored again. Started Unless."
+                <%= founder.last.bio %>
               </p>
             </div>
           </div>
           <h3>
-            Michèle de Bruyn
+            <%= founder.last.fullname %>
           </h3>
         </div>
       </div>
-      <div class="col-lg-6 col-md-6 col-xs-12">
-        <div class="profile-container">
-          <div class="profile">
-            <div class="profile-image" style="background-image: url('images/lars.jpg')"></div>
-            <div class="about">
-              <p>
-                "Lars studied Communication and Multimedia Design at the Amsterdam University of Applied Sciences. On the road to world domination he has been a writer, a researcher, interface designer and programmer. Got bored. Started Unless."
-              </p>
-            </div>
-          </div>
-          <h3>
-            Lars Böhm
-          </h3>
-        </div>
-      </div>
+      <% end %>
     </div>
   </div>
 </div>

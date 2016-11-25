@@ -5,14 +5,12 @@
   }
    @media (max-width: 992px) {
     form {
-      height: 400px;
       flex-direction: column;
     }
   }
   @media (min-width: 992px) {
     form {
       width: 600px;
-      height: 200px;
     }
   }
   form {
