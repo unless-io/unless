@@ -1,4 +1,4 @@
-- opening_text: We are a <span>digital agency</span>, based in <span>Amsterdam</span>, working on projects from all over the world. We cover the entire scope from <span>concept</span> to <span>branding</span>, <span>development</span> and <span>strategy</span>.
+- opening_text: <span id="intro-unless">Unless</span> is a <span>digital agency</span>, based in <span>Amsterdam</span>, working on projects from all over the world. We cover the entire scope from <span>concept</span> to <span>branding</span>, <span>development</span> and <span>strategy</span>.
   tagline: It's <span id="emphasis">exactly</span> what you think it is.
 
   about_title: "\"Consider it done. What's next?\""

@@ -2,6 +2,12 @@
 display: flex;
 justify-content: center;
 align-items: center;
+z-index: 999;
+}
+
+.nav-fixed {
+  position: fixed;
+  right: 0;
 }
 
 .logo {

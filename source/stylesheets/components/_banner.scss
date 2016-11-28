@@ -19,11 +19,17 @@
 }
 
 .banner-home {
-  min-height: 80vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   .banner-content {
+    #intro-unless {
+      color: $unless-red;
+      font-family: Arvo;
+      font-weight: 700;
+      font-style: italic;
+    }
     span {
       color: $unless-red;
     }
