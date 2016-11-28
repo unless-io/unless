@@ -4,21 +4,21 @@
 
   name: Unless
   description: We are a digital agency working on projects all over the world. We cover the entire scope from concept to branding, development and strategy.
-  image: "images/unless_social.png"
+  image: "http://unless.io/images/unless_social.png"
 
   fb_site_name: Unless
   fb_title: Unless - it's exactly what you think it is
   fb_description: We are a digital agency working on projects all over the world. We cover the entire scope from concept to branding, development and strategy.
-  fb_image: "images/unless_social.png"
+  fb_image: "http://unless.io/images/unless_social.png"
   fb_type: Website
   fb_url: http://unless.io
 
   google_name: Unless
   google_description: We are a digital agency working on projects all over the world. We cover the entire scope from concept to branding, development and strategy.
-  google_image: "images/unless_social.png"
+  google_image: "http://unless.io/images/unless_social.png"
 
   twitter_card_type: summary_large_image
   twitter_site: "@unless_io"
   twitter_title: Unless - it's exactly what you think it is
   twitter_description: We are a digital agency working on projects all over the world. We cover the entire scope from concept to branding, development and strategy.
-  twitter_image: "images/unless_social.png"
+  twitter_image: "http://unless.io/images/unless_social.png"
