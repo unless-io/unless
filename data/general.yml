@@ -19,7 +19,18 @@
       name: michele
       fullname: Michèle de Bruyn
       bio: "\"Michèle studied General Social Sciences at the University of Amsterdam. After finishing she decided to do something wildly different and joined the Le Wagon coding bootcamp, became manager at said bootcamp. Started Unless.\""
+      social:
+        github: https://github.com/Micheledebruyn
+        medium: https://medium.com/@debruyn.mm
+        twitter: https://twitter.com/micheledebruyn
+        linkedin: https://www.linkedin.com/in/mich%C3%A8le-de-bruyn-1a023034
     2:
       name: lars
       fullname: Lars Böhm
       bio: "\"Lars studied Communication and Multimedia Design at the Amsterdam University of Applied Sciences. On the road to world domination he has been a writer, a researcher, interface designer, programmer and teacher. Started Unless.\""
+      social:
+        github: https://github.com/datene
+        medium: https://medium.com/@datene
+        facebook: https://www.facebook.com/lars.bohm
+        linkedin: https://nl.linkedin.com/in/lars-böhm-301972133
+        pinterest: https://nl.pinterest.com/larsbhm/pins/
