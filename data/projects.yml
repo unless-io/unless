@@ -45,7 +45,7 @@
   links:
     Le Wagon: http://www.lewagon.org
 
-- name: Custom form for pilou.be
+- name: Form design for pilou.be
   description: Pilou is a project by the Belgian artist Marrigje Spoelstra who offers handcrafted toy planes with custom name engraving for children.
   images:
     1: images/pilou/vliegtuig.png
