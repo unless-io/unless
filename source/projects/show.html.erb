@@ -7,21 +7,6 @@
     <%= project.description %>
   </p>
   <div class="optional-info">
-    <% unless project.links.nil? %>
-    <h3>
-      Related links
-    </h3>
-    <ul>
-      <% project.links.each do |link| %>
-      <li>
-        <% link_to link[1] do %>
-        <%= link[0] %>
-        <div class="underline-left-to-right"></div>
-        <% end %>
-      </li>
-      <% end %>
-    </ul>
-    <% end %>
     <% unless project.partners.nil? %>
     <h3>
       Partners
@@ -34,15 +19,32 @@
       <% end %>
     </ul>
     <% end %>
-    <% unless project.video_url.nil? %>
-    <iframe width="560" height="315" src="<%= project.video_url %>" frameborder="0" allowfullscreen></iframe>
+    <% unless project.links.nil? %>
+      <h3>
+        Related links
+      </h3>
+      <% project.links.each do |link| %>
+        <% link_to link[1], target: "_blank" do %>
+          <div class="button-link btn btn-primary">
+            <%= link[0] %>
+          </div>
+    <!-- <div class="underline-left-to-right"></div> -->
+        <% end %>
+      <% end %>
     <% end %>
+    <% unless project.video_url.nil? %>
+    <div class="video-project">
+      <iframe width="560" height="315" src="<%= project.video_url %>" frameborder="0" allowfullscreen></iframe>
+      <% end %>
+    </div>
   </div>
-  <%= partial "carousel", locals: { project: project } %>
+  <div class="carousel">
+    <%= partial "carousel", locals: { project: project } %>
+  </div>
 </div>
 
 <div class="nav-back">
   <% link_to "/" do %>
-    <i class="fa fa-angle-double-left"></i>
+  <i class="fa fa-angle-double-left"></i>
   <% end %>
 </div>
