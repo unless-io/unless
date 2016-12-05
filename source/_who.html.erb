@@ -12,9 +12,18 @@
               </p>
             </div>
           </div>
-          <h3>
-            <%= founder.last.fullname %>
-          </h3>
+          <div class="who-info">
+            <h3>
+              <%= founder.last.fullname %>
+            </h3>
+            <div class="who-social">
+              <% founder.last.social.each do |social_link| %>
+                <% link_to social_link[1] do %>
+                  <i class="fa fa-<%= social_link[0] %>"></i>
+                <% end %>
+              <% end %>
+            </div>
+          </div>
         </div>
       </div>
       <% end %>
