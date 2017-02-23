@@ -1,0 +1,29 @@
+.maintext {
+  margin: 10px;
+  opacity: 1;
+  display: block;
+  animation: maintext-transition 1s;
+  span {
+    color: $unless-red;
+  }
+  p {
+    line-height: 23px;
+  }
+  h3 {
+    color: gray;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 0;
+  }
+}
+
+.hidden-maintext {
+  display: none !important;
+  opacity: 0;
+}
+
+@-webkit-keyframes maintext-transition {
+  0%   { opacity: 0; }
+  50%  { opacity: 1; }
+  100% { display: none !important; }
+}

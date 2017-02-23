@@ -1,0 +1,16 @@
+.btn {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 15px;
+  box-shadow: 1px 1px 1px rgba(1,1,1,0.2);
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.btn-red {
+  background: $unless-red;
+  color: white;
+}

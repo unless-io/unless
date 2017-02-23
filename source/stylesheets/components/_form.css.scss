@@ -1,0 +1,10 @@
+.contact-form {
+  font-family: "Source Sans Pro", "Helvetica", "sans-serif";
+  input, textarea {
+    border: 1px solid rgba(1,1,1,0.08);
+    border-radius: 2px;
+  }
+  textarea {
+    height: 150px;
+  }
+}

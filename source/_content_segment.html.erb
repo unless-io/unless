@@ -1,0 +1,13 @@
+<% data.maintext.each_with_index do |item, index| %>
+<% index != 0 ? hidden = "hidden-maintext" : hidden = "" %>
+
+<div class="maintext <%= hidden %>" id="<%= item[:identifier] %>">
+  <h3>
+    <%= item[:header] %>
+  </h3>
+  <%= item[:content] %>
+  <% if item[:identifier] == "contact" %>
+    <%= partial "form" %>
+  <% end %>
+</div>
+<% end %>

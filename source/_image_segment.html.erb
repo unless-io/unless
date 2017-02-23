@@ -1,0 +1,20 @@
+<div class="images-container">
+  <% data.images.each_with_index do |image, index| %>
+  <% index != 0 ? image_state = " hidden" : image_state = " active" %>
+  <div class="image-box<%= image_state %>" style="background-image:url('<%= image_path image["url"] %>');">
+  <div class="image-description">
+    <p>
+      <%= image["description"] %>
+    </p>
+  </div>
+  </div>
+  <% end %>
+  <div class="orbs">
+    <% (0...data.images.size).each_with_index do |orb, index| %>
+      <% index == 0 ? orb_state = " active" : orb_state = "" %>
+      <div class="orb<%= orb_state %>" id="<%= index + 1 %>">
+        <!-- No content -->
+      </div>
+    <% end %>
+  </div>
+</div>

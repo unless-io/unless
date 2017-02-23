@@ -1,0 +1,9 @@
+- identifier: about
+  header: <span>About</span> us
+  content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam massa sapien, vulputate eu lectus vitae, pulvinar condimentum nunc. Sed consectetur massa vel quam porta, eu sodales enim feugiat. Quisque quis augue nec diam ullamcorper elementum. Sed pulvinar, purus ac interdum eleifend, est quam pulvinar enim, vel malesuada elit erat vel odio. Donec pellentesque nisl dolor, sed ornare purus malesuada ut. Nam vel erat urna. Aliquam erat volutpat. Aenean mattis purus id neque faucibus, id faucibus enim rutrum. Fusce at lacus a velit commodo molestie ut nec urna.</p>
+- identifier: workflow
+  header: Our <span>Workflow</span>
+  content: <p>We aim to develop creative web solutions from the ground up or locate and improve bottlenecks within existing products and services. We'll help you delve deeper into whatever issue or challenge your product might have and, together, come up with a suitable approach to best improve the situation. </p> <p>What does this entail in the real world? We work together with you to develop your concept creatively, visually and technically. In most cases this leads to a web solution in the form of a website, platform, Internet of Things devise or brand & communication strategy.</p>
+- identifier: contact
+  header: <span>Contact</span> us
+  content: <p>Got a cool idea? Drop us a line.</p>

@@ -1,3 +1,9 @@
 //= require jquery
 //= require bootstrap-sprockets
+//= require image_carousel
+//= require snap
+//= require modernizr
+//= require classie
+//= require demo9
+//= require tabs
 //= require_tree .
