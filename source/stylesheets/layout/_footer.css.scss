@@ -14,3 +14,13 @@
 
   }
 }
+
+@media (max-width: 768px) {
+  .footer {
+    max-width: 200px;
+    min-width: 150px;
+    .fa {
+      font-size: 25px;
+    }
+  }
+}
