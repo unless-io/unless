@@ -1,8 +1,26 @@
 .maintext {
+  color: $black;
   margin: 10px;
   opacity: 1;
   display: block;
   animation: maintext-transition 1s;
+  .about-header {
+    font-style: italic;
+    font-weight: 600;
+    color: $black;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+    span {
+      color: $black;
+      font-weight: 600;
+      font-style: italic;
+    }
+    li {
+      margin: 10px 0;
+    }
+  }
   span {
     color: $unless-red;
   }
@@ -14,6 +32,19 @@
     font-style: italic;
     font-weight: 600;
     margin-top: 0;
+  }
+}
+
+.about-extra {
+  .references {
+    display: flex; 
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    .fa {
+      color: $unless-red;
+    }
   }
 }
 

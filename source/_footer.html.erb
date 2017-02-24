@@ -1,0 +1,9 @@
+<div class="footer">
+    <div class="references">
+    <% data.general[:social].each do |social_media_item| %>
+      <% link_to social_media_item.last do %>
+        <i class="fa fa-<%= social_media_item.first %>"></i>
+      <% end %>
+    <% end %>
+  </div>
+</div>

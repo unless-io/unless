@@ -9,5 +9,8 @@
   <% if item[:identifier] == "contact" %>
     <%= partial "form" %>
   <% end %>
+  <% if item[:identifier] == "about" %>
+    <%= partial "about" %>
+  <% end %>
 </div>
 <% end %>
